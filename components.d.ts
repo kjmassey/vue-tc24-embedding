@@ -5,18 +5,17 @@
 // Read more: https://github.com/vuejs/core/pull/3399
 export {}
 
-declare module 'vue' {
+declare module "vue" {
   export interface GlobalComponents {
-    AboutModal: typeof import('./src/components/AboutModal.vue')['default']
-    AppFooter: typeof import('./src/components/AppFooter.vue')['default']
-    CheckOutModal: typeof import('./src/components/CheckOutModal.vue')['default']
-    copy: typeof import("./src/components/HelloWorld copy.vue")["default"]
-    FilterChips: typeof import('./src/components/FilterChips.vue')['default']
-    FilterToggle: typeof import('./src/components/FilterToggle.vue')['default']
-    HomeView: typeof import('./src/components/HomeView.vue')['default']
-    NavBar: typeof import('./src/components/NavBar.vue')['default']
-    RouterLink: typeof import('vue-router')['RouterLink']
-    RouterView: typeof import('vue-router')['RouterView']
-    SelectState: typeof import('./src/components/SelectState.vue')['default']
+    AboutModal: typeof import("./src/components/AboutModal.vue")["default"];
+    AppFooter: typeof import("./src/components/AppFooter.vue")["default"];
+    CheckOutModal: typeof import("./src/components/CheckOutModal.vue")["default"];
+    FilterChips: typeof import("./src/components/FilterChips.vue")["default"];
+    FilterToggle: typeof import("./src/components/FilterToggle.vue")["default"];
+    HomeView: typeof import("./src/components/HomeView.vue")["default"];
+    NavBar: typeof import("./src/components/NavBar.vue")["default"];
+    RouterLink: typeof import("vue-router")["RouterLink"];
+    RouterView: typeof import("vue-router")["RouterView"];
+    SelectState: typeof import("./src/components/SelectState.vue")["default"];
   }
 }
