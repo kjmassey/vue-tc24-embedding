@@ -22,7 +22,7 @@
                 <div class="pt-4">
                     Please feel free to borrow, steal, adapt and modify any of the
                     source code, which is available
-                    <a href="https://github.com/kjmassey/vue-tableau-webhooks-ui" target="_blank">here</a>.
+                    <a href="https://github.com/kjmassey/vue-tc24-embedding" target="_blank">here</a>.
                 </div>
 
                 <div class="pt-4">

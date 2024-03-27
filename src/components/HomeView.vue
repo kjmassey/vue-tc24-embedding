@@ -54,7 +54,7 @@ export default {
       showFilterModal: false,
       selectedBooks: [],
       showCheckoutModal: false,
-      showInfoDialog: true
+      showInfoDialog: false
     };
   },
   computed: {
